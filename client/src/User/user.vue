@@ -35,9 +35,6 @@
                   <button type="button" class="btn btn-danger mx-2" @click="deleteDC(acRow.id)">
                     Delete
                   </button>
-              <!--    <button type="button" class="btn btn-danger mx-2" @click="goToDC(acRow.id)">
-                    Voir
-                  </button> -->
                   <a class="btn btn-outline-primary btn-sm" :href="'/formCandidatSaisie/' + acRow.id" target="_blank">
                     Voir le dossier
                   </a>
@@ -45,6 +42,20 @@
                     Archiver
                   </button>
                 </td>
+              <!--  <td>
+                  <a class="btn btn-success mx-2" :href="'' + acRow.id">
+                    Edit
+                  </a>
+                  <button type="button" class="btn btn-danger mx-2" @click="">
+                    Delete
+                  </button>
+                  <a class="btn btn-outline-primary btn-sm" :href="'' + acRow.id" target="_blank">
+                    Voir le dossier
+                  </a>
+                  <button type="button" class="btn btn-outline-danger btn-sm">
+                    Archiver
+                  </button>
+                </td>-->
               </tr>
             </tbody>
           </table>
